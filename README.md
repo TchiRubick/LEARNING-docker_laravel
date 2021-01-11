@@ -23,7 +23,11 @@ Ports used in the project:
 
 1. Clone this project:
 
-2. Install dependencies with *composer*
+2. Create a new .env file in the root of project and in source directory.
+
+   Copy the content of each .env.example coresponding to it.
+
+3. Install dependencies with *composer*
 
    Move into the source directory and run
 
@@ -33,13 +37,13 @@ Ports used in the project:
 
    or you can rely on a third party docker container if you don't have composer installed
 
-3. Build the project whit the next commands:
+4. Build the project whit the next commands:
 
    ```sh
    docker-compose up -d --build
    ```
 
-4. Migration
+5. Migration
 
    Run migration to populate the database with all of the simulation data
 
