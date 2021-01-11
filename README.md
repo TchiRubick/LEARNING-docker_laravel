@@ -35,12 +35,18 @@ Ports used in the project:
    composer install
    ```
 
+   or
+
+   ```sh
+   docker-compose run --rm composer update
+   ```
+
    or you can rely on a third party docker container if you don't have composer installed
 
 4. Build the project whit the next commands:
 
    ```sh
-   docker-compose up -d --build
+   docker-compose up -d 
    ```
 
 5. Migration
@@ -48,5 +54,5 @@ Ports used in the project:
    Run migration to populate the database with all of the simulation data
 
    ```sh
-   php artisan migrate
+   docker-compose run --rm artisan migrate
    ```
