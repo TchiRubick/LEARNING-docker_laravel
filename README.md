@@ -2,12 +2,11 @@
 
 Il est recommandée d'utilisé Docker pour lancer l'application mais cela n'est pas une obligation.
 
-Il vous faudra par contre avoir les stack suivants pour pouvoir le lancer:
+Il vous faudra par contre avoir les stack suivants pour pouvoir le lancer si vous n'avez pas docker:
 
 * PHP 7.4
 * Mysql 5
 * Composer
-
 
 ## Ports
 
@@ -26,7 +25,7 @@ Ports used in the project:
 
 2. Install dependencies with *composer*
 
-   Move into the source directory and run 
+   Move into the source directory and run
 
    ```sh
    composer install
